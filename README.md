@@ -56,8 +56,8 @@ decryptData script, make the changes in the correct file inside the
 secrets folder. Encrypt the secrets again with the encryptData script,
 commit the updated gpg files.
 
-## GPG Commands
+## GPG Commands reference
 https://kb.iu.edu/d/awiu
 
-## TODO:
-Access level. Some people can decrypt and some cannot
+## GPG Tool for MAC:
+https://gpgtools.org
