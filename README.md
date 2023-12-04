@@ -58,12 +58,12 @@ for these environments currently have to be imported manually on the servers.
 To encrypt, use the script bin/encryptData.sh  
 To decrypt, use the script bin/decryptData.sh
 
-Please note that all files inside the secrets folder will be overwritten by the
-decrypt script. The secret folder is not under version control.
+Please note that all files inside the `gpg` folder will be overwritten by the
+decrypt script.
 
 To update a secret, decrypt the secrets.tar.gpg file with the
 decryptData script, make the changes in the correct file inside the
-secrets folder. Encrypt the secrets again with the encryptData script,
+`gpg` folder. Encrypt the secrets again with the encryptData script,
 commit the updated gpg files.
 
 ### Decryption
