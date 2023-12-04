@@ -8,3 +8,5 @@
 !bin/*.sh
 !gpg
 !gpg/*.gpg
+!public-keys
+!public-keys/*.gpg
