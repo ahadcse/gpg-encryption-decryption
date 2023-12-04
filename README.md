@@ -73,13 +73,13 @@ bin/decryptData.sh -l
 The command lists the gpg files available.
 
 ```
-bin/decryptData ./gpg/secrets.tar.gpg
+bin/decryptData.sh ./gpg/secrets.tar.gpg
 ```
 The file is decrypted and then decompressed.
 
 ### Encryption
 ```
-bin/encryptSensitiveData.sh -g devTeam -r email@domain.com ./gpg/secrets.tar
+bin/encryptData.sh -g devTeam -r ahadcse@gmail.com ./gpg/test
 ```
 
 This command will create an encrypted file of the content in `secrets.tar`.
