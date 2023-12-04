@@ -35,8 +35,6 @@ SCRIPTPATH="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 
 # Create one folder that contains all of the secrets, this file can be read by
 # the deverlopers with access to the production and staging systems.
-TAR_SECRETS=secrets.tar
-SECRETS_FOLDER=secrets
 GPG_FOLDER=gpg
 
 # reader lists that can be used to simplify picking the right readers for a

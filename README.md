@@ -81,9 +81,9 @@ The file is decrypted and then decompressed.
 ```
 bin/encryptData.sh -g devTeam -r ahadcse@gmail.com ./gpg/test
 ```
+This command will create an encrypted file of the content in `test`.
 
-This command will create an encrypted file of the content in `secrets.tar`.
-The script contains two groups of user to make it easier to encrypt for the right persons. The groups are called prod and ennTeam. The command above will encrypt for the ennTeam and also for email@domain.com. 
+The script contains two groups of user to make it easier to encrypt for the right persons. The groups are called prod and devTeam. The command above will encrypt for the devTeam and also for email@domain.com. 
 Please note that you need to have the public keys imported for every person that you encrypt the file for.
 
 ## GPG Commands reference
