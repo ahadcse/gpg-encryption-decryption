@@ -114,4 +114,4 @@ for((i=0; i<"${#FILES[@]}"; i++ )); do
   fi
 done
 
-echo 'Done encrypting file!'
+echo 'Encryption complete!'
