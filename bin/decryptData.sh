@@ -61,11 +61,6 @@ then
 exit
 fi
 
-TAR_SECRETS=secrets.tar
-SECRETS_FOLDER=secrets
-
-mkdir -p $SECRETS_FOLDER
-
 for((i=0; i<"${#FILES[@]}"; i++ )); do
   GPG_FILE=${FILES[i]}
 
